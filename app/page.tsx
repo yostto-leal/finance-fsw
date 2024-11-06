@@ -1,6 +1,10 @@
-const nome = () => {
-    return <h1 className="text-red-500 p-10" >hello word</h1>;
-
+import { Button } from "./_components/ui/button";
+const Home = () => {
+    return ( 
+        <Button>Hello ariosto</Button>
+     );
 };
+ 
+export default Home
 
-export default nome;
+
